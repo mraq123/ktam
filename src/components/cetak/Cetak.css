@@ -1,0 +1,43 @@
+.cetak {
+    /* width: 100vw;
+    height: 100vh; */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.title_cetak {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.garis_kotak {
+    border: 0.5px solid gray;
+}
+
+.title_cetak_bot {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tangal {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.ttd-container {
+    display: flex;
+    gap: 250px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.ttd {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.ttd > p {
+    text-align: center;
+}
